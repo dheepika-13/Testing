@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="chrometest">
+  <parameter name="browsers" value="Chrome"/>
+  
+    <classes>
+      <class name="com.selenium.day9_4"/>
+    </classes>
+   </test> <!-- Test -->
+    <test name="edgetest">
+  <parameter name="browsers" value="Edge"/>
+  
+    <classes>
+      <class name="com.selenium.day9_4"/>
+    </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
